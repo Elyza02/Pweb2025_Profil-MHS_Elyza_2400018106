@@ -1,0 +1,97 @@
+ <!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Elyza</title>
+
+    <!-- Link ke file CSS eksternal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER: Judul dan Navigasi -->
+    <header>
+        <h1>Profil Elyza</h1>
+        <nav>
+            <ul>
+                <li><a href="#tentang">Tentang Saya</a></li>
+                <li><a href="#planning">Planning</a></li>
+                <li><a href="#hobi">Hobi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN: Isi utama dari halaman -->
+    <main>
+
+        <!-- ASIDE: Sidebar kiri dengan foto dan identitas -->
+        <aside>
+            <section class="identitas">
+                <h2>Foto & Identitas</h2>
+                <img src="Elyza.jpg" alt="Foto Elyza" class="bulat">
+            </section>
+
+            <section class="identitas-vertikal">
+                <p><strong>Nama             :</strong> Elyza</p>
+                <p><strong>NIM              :</strong> 2400018106</p>
+                <p><strong>Prodi            :</strong> Informatika</p>
+                <p><strong>Perguruan Tinggi :</strong> Universitas Ahmad Dahlan</p>
+                <p><strong>Email            :</strong> 2400018106@webmail.uad.ac.id</p>
+                <p><strong>No Telepon       :</strong> 081243376030</p>
+            </section>
+        </aside>
+
+        <!-- ARTICLE: Konten utama profil -->
+         <article>
+            <section id="tentang">
+                <h2>Tentang Saya</h2>
+                <p>Saya Elyza, seorang mahasiswa Program Studi Informatika di Universitas Ahmad Dahlan. 
+                Saat ini saya sedang mempelajari dasar-dasar pemrograman web, khususnya menggunakan HTML, 
+                CSS, JavaScript dan php. Sebagai pemula, saya sangat antusias untuk memahami cara membuat 
+                tampilan web yang menarik dan interaktif. Pembelajaran ini merupakan langkah awal saya untuk
+                 membangun keterampilan di bidang teknologi dan pengembangan perangkat lunak.</p>
+            </section>
+
+            <section id="planning">
+                <h2>Planning</h2>
+                <p>Hai, saya Elyza. Saya sedang menempuh pendidikan di Universitas Ahmad Dahlan dalam bidang
+                 Informatika dan baru mulai belajar membuat situs web profil pribadi. Meskipun saya masih mengalami 
+                 kesulitan, banyak hal yang harus saya pelajari. Saya merasa semangat untuk terus berkembang. Selain
+                belajar coding dan desain web, saya juga ingin lebih memahami mata kuliah yang diajarkan di kelas, 
+                termasuk Matematika Diskrit dan Algoritma Pemrograman yang cukup menantang. Ke depannya, saya ingin menjadi
+                 seseorang yang ahli di bidang teknologi, khususnya pengembangan web dan mungkin juga aplikasi. Saya tahu jalannya 
+                tidak mudah, tetapi dengan langkah kecil, semangat belajar, mencoba, dan tidak mudah menyerah, saya yakin bisa mencapai tujuan saya.</p>
+            </section>
+
+            <section id="hobi">
+                <h2>Hobi</h2>
+                <p> Hobi saya adalah berolahraga. Saya sangat menyukai berbagai aktivitas fisik karena bisa membuat 
+                    tubuh lebih sehat dan pikiran menjadi segar. Beberapa olahraga yang saya sukai yaitu berlari,
+                     bermain badminton, dan bersepeda. Semua kegiatan ini seru dan memiliki kesenangannya masing-masing.
+                      Olahraga juga membantu saya tetap bugar dan sehat setiap hari.</p>
+            </section>
+        </article>
+    </main>
+
+    <!-- FORMULIR PESAN -->
+    <div class="formulir-full">
+        <section class="formulir-pesan">
+            <h2>Formulir Pesan</h2>
+            <form action="proses.php" method="post">
+                <input type="text" name="nama" placeholder="Nama Anda" required>
+                <textarea name="pesan" placeholder="Pesan Anda" required></textarea>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer-full">
+        <p>&copy; 2025 Elyza. Semua hak dilindungi.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

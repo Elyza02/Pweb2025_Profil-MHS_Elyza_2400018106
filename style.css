@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+header {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav a.aktif {
+    color: #17191a;
+    border-bottom: 2px solid #07090a;
+}
+nav a:hover {
+    color: #555;
+}
+main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+aside {
+    width: 30%;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-sizing: border-box;
+    border-right: 1px solid #ccc;
+}
+.identitas {
+    text-align: center;
+}
+.identitas-vertikal p {
+    margin: 6px 0;
+    font-size: 16px;
+}
+img.bulat {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+}
+article {
+    width: 70%;
+    padding: 20px;
+    background-color: #fdfdfd;
+    box-sizing: border-box;
+}
+article section {
+    margin-bottom: 30px;
+}
+article p {
+    text-align: justify;
+    line-height: 1.6;
+    font-size: 16px;
+}
+.formulir-full {
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+.formulir-pesan {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+.formulir-pesan h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.formulir-pesan input,
+.formulir-pesan textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.formulir-pesan button {
+    width: 100%;
+    background-color: #1b1c1e;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.formulir-pesan button:hover {
+    background-color: #0a0a0b;
+}
+.footer-full {
+    width: 100%;
+    background-color: #ccc;
+    padding: 15px 0;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 40px;
+}
+body.hasil-page {
+    font-family: Arial, sans-serif;
+    background-color: #d3d6d6;
+    color: #131d1b;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+.hasil-container {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 15px;
+    max-width: 500px;
+    margin: 80px auto;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.hasil-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #1d1d1f;
+}
+
+.hasil-container p {
+    font-size: 18px;
+    margin: 12px 0;
+    font-weight: 500;
+}
+
+.hasil-container a button {
+    margin-top: 30px;
+    padding: 12px 24px;
+    background-color: #121313;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.hasil-container a button:hover {
+    background-color: #2c2e2e;
+}
+
